@@ -46,7 +46,10 @@
   body{
     /* width: 1280px;
     margin: 0px auto; */
-    overflow: hidden;
+   
+        overflow-x: hidden; /* يمنع التمرير الأفقي */
+        overflow-y: auto; /* يسمح بالتمرير العمودي */
+    
     background-color: var(--background-color);
   }
 
